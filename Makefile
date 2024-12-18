@@ -10,4 +10,4 @@ $(TARGET): $(SRCS) $(HEADERS)
 	$(CXX) $(CXXFLAGS) -o $(TARGET) $(SRCS)
 
 clean:
-	rm -f $(TARGET)
+	rm -f $(TARGET) *.ppm
